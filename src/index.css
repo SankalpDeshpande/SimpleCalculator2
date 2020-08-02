@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.displayClass {
+  height: 150px;
+  background-color: burlywood;
+}
+
+.numberClass {
+  float: right;
+  font-size: 80px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  height: 40px;
+}
+
+.jumbotron {
+  min-height: 300px;
+  color: burlywood;
+}
+
+.displayNumber{
+  position: fixed;
+  bottom: 350px;
+  right: 100px;
+  font-size: 60px;
+}
