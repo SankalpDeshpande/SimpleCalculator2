@@ -7,25 +7,20 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      num1: null,
-      num2: null,
+      total: null,
+      next: null,
       operation: null
     };
   }
 
   handleClick= (name) =>{
-    const result = calculate(this.state, name);
-    this.setState({
-      num1: result.num1,
-      num2: result.num2,
-      operation: result.operation
-    });
+    this.setState(calculate(this.state, name));
   };
 
   render() {
     return (
       <div class="container-fluid">
-        <div><Display number1={this.state.num1} number2={this.state.num2} operator={this.state.operation}/></div>
+        <div><Display value={this.state.next || this.state.total || "0"} operation={this.state.operation}/></div>
         <div><Buttons clickHandler={this.handleClick}/></div>
       </div>
     );

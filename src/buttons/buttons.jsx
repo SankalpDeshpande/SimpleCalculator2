@@ -41,7 +41,7 @@ export default class Buttons extends React.Component {
             <button type="button" class="btn btn-success block" onClick={()=>this.handleClick("9")}>9</button>
           </div>
           <div class="col-md-3">
-            <button type="button" class="btn btn-success block" onClick={()=>this.handleClick("*")}>*</button>
+            <button type="button" class="btn btn-success block" onClick={()=>this.handleClick("X")}>X</button>
           </div>
         </div>
         <div class="row form-group">

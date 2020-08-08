@@ -3,18 +3,19 @@ import PropTypes from "prop-types";
 
 export default class Display extends React.Component {
   static propTypes = {
-    number1: PropTypes.string,
-    number2: PropTypes.string,
-    operator: PropTypes.string
+    value: PropTypes.string,
+    operation: PropTypes.string
   };
 
   constructor(props) {
     super(props);
   }
   render() {
+    console.log(this.props.value);
     return (
       <div class="jumbotron">
-        <div class="displayNumber">{this.props.number1}{this.props.operator}{this.props.number1}</div>
+        <div class="displayNumber">{this.props.value}</div>
+        <div class="displayOperator"> Operator:{this.props.operation ? this.props.operation : "nill"}</div>
       </div>
     );
   }

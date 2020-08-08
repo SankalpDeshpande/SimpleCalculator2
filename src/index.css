@@ -46,3 +46,10 @@ code {
   right: 100px;
   font-size: 60px;
 }
+
+.displayOperator{
+  position: fixed;
+  left: 100px;
+  font-size: 30px;
+  color: #4CAF50;
+}
