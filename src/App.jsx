@@ -2,6 +2,7 @@ import React from 'react';
 import Display from './display/display';
 import Buttons from './buttons/buttons';
 import {calculate} from './Calculate/Calculate';
+import Container from '@material-ui/core/Container';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,10 +20,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div class="container-fluid">
+      
+      <Container fixed>
         <div><Display value={this.state.next || this.state.total || "0"} operation={this.state.operation}/></div>
         <div><Buttons clickHandler={this.handleClick}/></div>
-      </div>
+        </Container>
     );
   }
 }

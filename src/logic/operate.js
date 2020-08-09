@@ -3,7 +3,7 @@ export default function operate(numberOne, numberTwo, operation) {
     return Number(numberOne) + Number(numberTwo);
   }
   if (operation === "-") {
-    return Number(numberOne) - Number(numberTwo);
+    return (Number(numberOne) - Number(numberTwo)).toFixed(8);
   }
   if (operation === "X") {
     return Number(numberOne) * Number(numberTwo);

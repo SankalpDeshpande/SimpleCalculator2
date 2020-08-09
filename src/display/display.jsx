@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Container from '@material-ui/core/Container';
 
 export default class Display extends React.Component {
   static propTypes = {
@@ -11,12 +12,11 @@ export default class Display extends React.Component {
     super(props);
   }
   render() {
-    console.log(this.props.value);
     return (
-      <div class="jumbotron">
+      <Container fixed class="displayClass">
         <div class="displayNumber">{this.props.value}</div>
         <div class="displayOperator"> Operator:{this.props.operation ? this.props.operation : "nill"}</div>
-      </div>
+        </Container>
     );
   }
 }

@@ -78,6 +78,16 @@ export const calculate = (state, buttonName) =>{
         };
       }
 
+      if (buttonName === "+/-") {
+        if (state.next) {
+          return { next: (-1 * parseFloat(state.next)).toString() };
+        }
+        if (state.total) {
+          return { total: (-1 * parseFloat(state.total)).toString() };
+        }
+        return {};
+      }
+
       if (buttonName === "=") {
         if (state.next && state.operation) {
           return {
