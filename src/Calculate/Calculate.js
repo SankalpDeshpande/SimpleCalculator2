@@ -59,6 +59,25 @@ export const calculate = (state, buttonName) =>{
         };
       }
 
+      if (buttonName === "%") {
+        if (state.operation && state.next) {
+          const result = operate(state.total, state.next, state.operation);
+          return {
+            total: operate(result, 100, "X"),
+            next: null,
+            operation: null,
+          };
+        }
+        if (state.next) {
+          return {
+            next: operate(state.next, 100, "/")
+          };
+        }
+        return {
+          total: operate(state.total, 100, "/")
+        };
+      }
+
       if (buttonName === "=") {
         if (state.next && state.operation) {
           return {
