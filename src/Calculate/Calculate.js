@@ -8,7 +8,11 @@
  *   operation:String  +, -, etc.
  */
 import operate from "../logic/operate";
-import isNumber from "../logic/isNumber";
+
+function isNumber(value){
+  const number = Number(value);
+  return typeof number === 'number' && number === number && number !== Infinity && number !== -Infinity;
+}
 
 export const calculate = (state, buttonName) =>{
     if (buttonName === "AC") {
