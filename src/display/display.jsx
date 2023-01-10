@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Container from '@material-ui/core/Container';
 
 export default class Display extends React.Component {
   static propTypes = {
     value: PropTypes.string,
-    operation: PropTypes.string
+    operation: PropTypes.string,
   };
 
   constructor(props) {
@@ -13,10 +12,16 @@ export default class Display extends React.Component {
   }
   render() {
     return (
-      <Container fixed class="displayClass">
-        <div class="displayNumber">{this.props.value}</div>
-        <div class="displayOperator"> Operator:{this.props.operation ? this.props.operation : "nill"}</div>
-        </Container>
+      <div className="containerDiv">
+        <div className="displayOperator">
+          <h1>
+            Operator:{this.props.operation ? this.props.operation : "nill"}
+          </h1>
+        </div>
+        <div className="displayNumber">
+          <h1>{this.props.value}</h1>
+        </div>
+      </div>
     );
   }
 }
