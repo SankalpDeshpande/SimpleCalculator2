@@ -1,6 +1,6 @@
 {
+  "homepage": "SankalpDeshpande.github.io/SimpleCalculator",
   "name": "mycalculator",
-  "homepage": "https://SankalpDeshpande.github.io/react-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
