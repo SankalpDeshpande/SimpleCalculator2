@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/SimpleCalculator/static/css/main.80ebd8ef.chunk.css",
-    "main.js": "/SimpleCalculator/static/js/main.d58f0e93.chunk.js",
-    "main.js.map": "/SimpleCalculator/static/js/main.d58f0e93.chunk.js.map",
+    "main.css": "/SimpleCalculator/static/css/main.9cb52a37.chunk.css",
+    "main.js": "/SimpleCalculator/static/js/main.e92e4bbb.chunk.js",
+    "main.js.map": "/SimpleCalculator/static/js/main.e92e4bbb.chunk.js.map",
     "runtime-main.js": "/SimpleCalculator/static/js/runtime-main.efc9d2d0.js",
     "runtime-main.js.map": "/SimpleCalculator/static/js/runtime-main.efc9d2d0.js.map",
-    "static/css/2.e455b29e.chunk.css": "/SimpleCalculator/static/css/2.e455b29e.chunk.css",
-    "static/js/2.1ae5ca88.chunk.js": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js",
-    "static/js/2.1ae5ca88.chunk.js.map": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js.map",
+    "static/js/2.6a71037e.chunk.js": "/SimpleCalculator/static/js/2.6a71037e.chunk.js",
+    "static/js/2.6a71037e.chunk.js.map": "/SimpleCalculator/static/js/2.6a71037e.chunk.js.map",
     "index.html": "/SimpleCalculator/index.html",
-    "precache-manifest.79fa5526793135a0d6f64ac543250a10.js": "/SimpleCalculator/precache-manifest.79fa5526793135a0d6f64ac543250a10.js",
+    "precache-manifest.07f9d0d38fc9f3ce228cab41f162b444.js": "/SimpleCalculator/precache-manifest.07f9d0d38fc9f3ce228cab41f162b444.js",
     "service-worker.js": "/SimpleCalculator/service-worker.js",
-    "static/css/2.e455b29e.chunk.css.map": "/SimpleCalculator/static/css/2.e455b29e.chunk.css.map",
-    "static/css/main.80ebd8ef.chunk.css.map": "/SimpleCalculator/static/css/main.80ebd8ef.chunk.css.map",
-    "static/js/2.1ae5ca88.chunk.js.LICENSE.txt": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js.LICENSE.txt",
-    "static/media/bootstrap.css": "/SimpleCalculator/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "static/css/main.9cb52a37.chunk.css.map": "/SimpleCalculator/static/css/main.9cb52a37.chunk.css.map",
+    "static/js/2.6a71037e.chunk.js.LICENSE.txt": "/SimpleCalculator/static/js/2.6a71037e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.efc9d2d0.js",
-    "static/css/2.e455b29e.chunk.css",
-    "static/js/2.1ae5ca88.chunk.js",
-    "static/css/main.80ebd8ef.chunk.css",
-    "static/js/main.d58f0e93.chunk.js"
+    "static/js/2.6a71037e.chunk.js",
+    "static/css/main.9cb52a37.chunk.css",
+    "static/js/main.e92e4bbb.chunk.js"
   ]
 }
