@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.80ebd8ef.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.fafb05b0.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.fafb05b0.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.d2ac757c.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.d2ac757c.js.map",
-    "static/css/2.bf023f09.chunk.css": "/react-gh-pages/static/css/2.bf023f09.chunk.css",
-    "static/js/2.1ae5ca88.chunk.js": "/react-gh-pages/static/js/2.1ae5ca88.chunk.js",
-    "static/js/2.1ae5ca88.chunk.js.map": "/react-gh-pages/static/js/2.1ae5ca88.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.be3ef61e39597a020af966094ddcd984.js": "/react-gh-pages/precache-manifest.be3ef61e39597a020af966094ddcd984.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/2.bf023f09.chunk.css.map": "/react-gh-pages/static/css/2.bf023f09.chunk.css.map",
-    "static/css/main.80ebd8ef.chunk.css.map": "/react-gh-pages/static/css/main.80ebd8ef.chunk.css.map",
-    "static/js/2.1ae5ca88.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.1ae5ca88.chunk.js.LICENSE.txt",
-    "static/media/bootstrap.css": "/react-gh-pages/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "main.css": "/SimpleCalculator/static/css/main.80ebd8ef.chunk.css",
+    "main.js": "/SimpleCalculator/static/js/main.d58f0e93.chunk.js",
+    "main.js.map": "/SimpleCalculator/static/js/main.d58f0e93.chunk.js.map",
+    "runtime-main.js": "/SimpleCalculator/static/js/runtime-main.efc9d2d0.js",
+    "runtime-main.js.map": "/SimpleCalculator/static/js/runtime-main.efc9d2d0.js.map",
+    "static/css/2.e455b29e.chunk.css": "/SimpleCalculator/static/css/2.e455b29e.chunk.css",
+    "static/js/2.1ae5ca88.chunk.js": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js",
+    "static/js/2.1ae5ca88.chunk.js.map": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js.map",
+    "index.html": "/SimpleCalculator/index.html",
+    "precache-manifest.79fa5526793135a0d6f64ac543250a10.js": "/SimpleCalculator/precache-manifest.79fa5526793135a0d6f64ac543250a10.js",
+    "service-worker.js": "/SimpleCalculator/service-worker.js",
+    "static/css/2.e455b29e.chunk.css.map": "/SimpleCalculator/static/css/2.e455b29e.chunk.css.map",
+    "static/css/main.80ebd8ef.chunk.css.map": "/SimpleCalculator/static/css/main.80ebd8ef.chunk.css.map",
+    "static/js/2.1ae5ca88.chunk.js.LICENSE.txt": "/SimpleCalculator/static/js/2.1ae5ca88.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.css": "/SimpleCalculator/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2ac757c.js",
-    "static/css/2.bf023f09.chunk.css",
+    "static/js/runtime-main.efc9d2d0.js",
+    "static/css/2.e455b29e.chunk.css",
     "static/js/2.1ae5ca88.chunk.js",
     "static/css/main.80ebd8ef.chunk.css",
-    "static/js/main.fafb05b0.chunk.js"
+    "static/js/main.d58f0e93.chunk.js"
   ]
 }
